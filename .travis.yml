@@ -8,7 +8,8 @@ python:
   - '2.7'
 
 
-script: python tests/tests.py;
+script:
+  -python tests/tests.py
 
 
 notifications:
