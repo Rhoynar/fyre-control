@@ -1,0 +1,15 @@
+language: python
+
+sudo: false
+
+cache: pip
+
+python:
+  - '2.7'
+
+
+script: python tests/tests.py;
+
+
+notifications:
+  email: true
